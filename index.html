@@ -219,6 +219,22 @@
                     </p>
                 </div>
             </div>
+            <div class="faq-acc">
+                <button class="faq-title">
+                    Who developed this Netflix Clone?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        width="24" height="24" color="white" fill="none">
+                        <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>
+                        This Netflix clone was designed(definetly not) a̶n̶d̶   but developed by <strong>OG</strong>
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -261,22 +277,22 @@
 
 
 <body>
-<script>
-  const faqs = document.querySelectorAll('.faq-acc');
+    <script>
+        const faqs = document.querySelectorAll('.faq-acc');
 
-  faqs.forEach((faq) => {
-    const button = faq.querySelector('.faq-title');
-    const content = faq.querySelector('.faq-answer');
+        faqs.forEach((faq) => {
+            const button = faq.querySelector('.faq-title');
+            const content = faq.querySelector('.faq-answer');
 
-    button.addEventListener('click', () => {
-      if (content.style.maxHeight) {
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      }
-    });
-  });
-</script>
+            button.addEventListener('click', () => {
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
 
 
 </body>
