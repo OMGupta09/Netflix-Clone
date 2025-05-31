@@ -1,0 +1,393 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+nav span img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav div button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+    height: calc(100% - 72px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 10px;
+    padding: 0 30px;
+    padding-bottom: -11px;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(50, 50, 50);
+
+
+}
+
+.btn {
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    padding: 12px 101px 8px 14px;
+    font-size: 19px;
+    border-radius: 4px;
+    background-color: rgb(23, 23, 23, 0.7);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 77px;
+    right: 1px;
+    height: 206px;
+    width: 500px;
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first>div :nth-child(1) {
+    font-size: 48px;
+
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.download__gif__container {
+    display: flex;
+
+}
+
+.secimage {
+    position: relative;
+}
+
+.secimage img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimage video {
+    position: absolute;
+    top: 31px;
+    right: 83px;
+    height: 173px;
+    width: 337px;
+}
+
+.faq-acc {
+    width: 50vw;
+}
+
+.faq-title {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+}
+
+.faq-title:hover {
+    background-color: #2d2d2d;
+}
+
+.faq-answer {
+    background-color: #303030;
+    border-top: 1px solid black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+
+}
+
+.faq-answer>p {
+    margin: 1rem;
+}
+
+.faq-listcon {
+    border-top: 8px solid #222;
+    padding: 2rem 0;
+}
+
+.faq-heading {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', sans-serif !important;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pributton {
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+footer {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-top: 20px;
+    padding: 14px;
+
+}
+
+.footer a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1105px) {
+
+    nav {
+        max-width: 80vh;
+    }
+
+    .first {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .secimg img {
+        width: 305px;
+
+    }
+
+    .secimg video {
+        width: 260px;
+        height: 200px;
+        top: 20px;
+        right: 5px;
+    }
+
+    .secimage img {
+        width: 305px;
+
+    }
+
+    .secimage video {
+        width: 196px;
+        height: 200px;
+        top: -28px;
+        right: 58px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        margin-top: 20px;
+        padding: 14px;
+        gap: 20px;
+
+    }
+
+    .chotta {
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+
+    .chotta {
+        font-size: 40px !important;
+        /* background-color: red !important; */
+        font-weight: 900;
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    .chotta {
+        font-size: 30px !important;
+        /* background-color: red !important; */
+        font-weight: 900;
+        text-align: center;
+    }
+
+
+    .hero {
+        padding: 0 45px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .chotta {
+        font-size: 25px !important;
+        /* background-color: red !important; */
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .chottu {
+        font-size: 15px;
+    }
+
+
+    .hero {
+        padding: 0 45px;
+    }
+
+}
