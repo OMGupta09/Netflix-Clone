@@ -5,6 +5,10 @@ This is a responsive and visually accurate **Netflix clone** built using **HTML*
 
 ---
 
+🔗 [Live Site](https://ojizz-nclone.netlify.app/)
+
+---
+
 ## 🚀 Features
 
 - 🎥 Netflix-like landing page with hero section, feature showcases, and FAQ.
